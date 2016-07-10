@@ -1,5 +1,7 @@
 # Unicode distro logos
 
+![Preview of some logos](https://github.com/emoryy/unicode-distro-logos/raw/master/preview.png "Preview of some logos")
+
 This repository includes the logos of various Linux distributions in the form of unicode text art. The logos are meant to be displayed in a terminal emulator. Your terminal program needs to support 256 colors, also the display quality of the logos is strongly affected by the exact font you use. 
 
 The logo files can be found in the `textlogos` directory under subdirectories named after the respective Linux distro. For most distros there are two base versions: one with a framed background, and one with simple black background. For a few distros there are also alternative versions too.
@@ -21,6 +23,9 @@ For converting the logos to the right format I used a binary named `bm2uns`. You
 You can simply `cat` the logo files in your terminal. Additionaly you can use them with various system info programs, that displays a logo. 
 
 ### Usage with alsi
+
+![Preview of alsi example](https://github.com/emoryy/unicode-distro-logos/raw/master/alsi_example.png "Preview of alsi example")
+
 ```
 alsi -f path/to/logo_file_of_your_choice
 ```
