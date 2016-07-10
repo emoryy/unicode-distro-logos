@@ -1,0 +1,2 @@
+startline=1
+readarray -t fulloutput <<< "`sed -e '2,$s/$/%s/' textlogos/archlinux/archlinux_high.txt`"
